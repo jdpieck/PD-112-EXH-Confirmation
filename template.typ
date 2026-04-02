@@ -21,7 +21,8 @@
   
   set text(
     11pt,
-    font: "Cantarell",
+    // font: "Cantarell",
+    font: "Albert Sans"
   )
 
   set list(
@@ -31,6 +32,8 @@
   set par(
     justify: true
   )
+
+  // show heading.where(level: 3): emph
 
 
   show link: underline
@@ -52,7 +55,7 @@
     ) 
   )
   
-  v(-.7in)
+  v(-1 *major-margin + .25in)
   
   body
 }

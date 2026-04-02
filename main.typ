@@ -44,18 +44,18 @@ Here is the specific information regarding your exhibit:
 
 Please review the following important information as well.
 
-== Rain 
+=== Rain 
 A Rain Plan [link missing] will be instituted in the event that rain does not permit any outdoor events. You will be notified the day before if it needs to be carried out.
 
-== Parking
+=== Parking
 Parking is free but very limited, competitive, and not guaranteed. We strongly recommended that you arrive early, to increase your odds of securing a parking spot. Parking violations will result in the vehicle being towed at the owner’s expense.
 
-== Vehicle Loading/Unloading Permits
+=== Vehicle Loading/Unloading Permits
 If applicable and if approved, loading/unloading permits will be available for pick up in the Picnic Day Office, 349 Memorial Union. We will contact you separately if you have requested a parking permit.
 
 *Please note:* ALL gates to the campus will close at 9:00 AM and will reopen after the parade, at which time, no other vehicles are permitted to enter or exit the campus.
 
-== Hygiene
+=== Hygiene
 If your Exhibit allows participants to touch elements (e.g. craft supplies, instruments, etc.), please thoroughly sanitize between uses, and place hand sanitizers at strategic locations.
 
 == Final Reminders
@@ -77,7 +77,7 @@ Sincerely,
 #show grid: set par(justify: false)
 // #show grid: set block(above: 1in)
 #grid(
-  gutter: .2in,
+  gutter: .25in,
   columns: 2,
   // columns: (2.5in, )*2,
   ..staff.map(it => [
