@@ -1,21 +1,11 @@
+#let exhibit-name = sys.inputs.at("org", default: "[exhibit name]")
 #let contact = sys.inputs.at("contact", default: "[contact]")
-#let exhibit-name = sys.inputs.at("name", default: "[exhibit name]")
 #let location = sys.inputs.at("location", default: "[location]")
-#let arrival-time = sys.inputs.at("check", default: "12:00PM")
-#let event-running = sys.inputs.at("start", default: "1:00 PM")
-#let clean-up = sys.inputs.at("end", default: "2:00 PM")
-
-
-// #let location-link = {
-//   if location == "Children's Discovery Fair Stage" {"https://maps.app.goo.gl/j46R6R9Nqbce9iou9"}
-//   else if location == "East Quad Stage" {"https://maps.app.goo.gl/a91m3gWUy7vQvzsi9?g_st=ic"}
-//   else if location == "A Street Field Stage" {"https://maps.app.goo.gl/B19p5x9RYdGkZ45j8?g_st=ic"}
-//   else if location == "Sciences Lab Building Patio" {"https://maps.app.goo.gl/uy73cy3pKrGb2xPY6?g_st=ic"}
-//   else if location == "Wellman Hall Stage" {"https://maps.app.goo.gl/45SfQ9XPXFrpC9uh8?g_st=ic"}
-//   else if location == "Memorial Union Stage" {"https://maps.app.goo.gl/a91m3gWUy7vQvzsi9?g_st=ic"}
-//   else if location == "Silo Stage" {"https://maps.app.goo.gl/UsbbFmYwHLRSVfkN7?g_st=ic"}
-//   else {"blank"}
-// }
+#let outdoor = sys.inputs.at("outdoor", default: "Yes")
+#let setup = sys.inputs.at("setup", default: "12:00PM")
+#let start = sys.inputs.at("start", default: "12:00PM")
+#let end = sys.inputs.at("end", default: "12:00PM")
+#let clean-up = sys.inputs.at("clean-up", default: "2:00 PM")
           
 #let email = link("mailto:exhibits@picnicday.ucdavis.edu", [exhibits\@picnicday.ucdavis.edu])
 #let phone = "(530) 752-8320"
@@ -33,13 +23,14 @@ Please keep this confirmation letter in your records, as it, along with your app
 == Event Information
 Here is the specific information regarding your exhibit:
 
-// #link(location-link)[[Link]]
 #table(
-  columns: 3,
-  table.header(table.cell(colspan: 3, [Location: #location ])),
-  arrival-time, [Arrival/Setup], [Please check in at the tent near the [blank]],
-  event-running, [Event Running], [The time during which you will [blank]],
-  clean-up, [Clean Up], [Time to clean up],
+  columns: 2,
+  [Location], [#location 
+  // #if outdoor == "Yes" [(Outdoors)] else [(Indoors)]
+  ] ,
+  [Arrival/Setup], setup, 
+  [Event Running], [#start to #end],
+  [Clean Up By], clean-up,
 )
 
 Please review the following important information as well.
@@ -75,11 +66,9 @@ Sincerely,
 )
 
 #show grid: set par(justify: false)
-// #show grid: set block(above: 1in)
 #grid(
   gutter: .25in,
   columns: 2,
-  // columns: (2.5in, )*2,
   ..staff.map(it => [
     *#it.name* \
     #emph[#it.role] 

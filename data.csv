@@ -1,25 +1,94 @@
-Name,Location,Start,End,Duration,Call,Notes
-Kat and Matt,Silo Stage,1:05 PM,1:35 PM,30:00,12:05 PM,
-"Love, Georgie",Silo Stage,3:00 PM,3:30 PM,30:00,2:00 PM,
-Jahri's World,Silo Stage,4:30 PM,5:00 PM,30:00,3:30 PM,
-The Liquid Hotplates,East Quad Stage,12:35 PM,12:50 PM,15:00,11:35 AM,
-The 39th Floor,East Quad Stage,1:00 PM,1:25 PM,25:00,12:00 PM,
-Supercommon,East Quad Stage,1:35 PM,2:00 PM,25:00,12:35 PM,
-Valerie Navarrete,East Quad Stage,2:10 PM,2:35 PM,25:00,1:10 PM,
-Kindred Spirits,East Quad Stage,2:45 PM,3:20 PM,35:00,1:45 PM,
-Rainbow City Park,East Quad Stage,3:30 PM,4:00 PM,30:00,2:30 PM,
-Davis Chinese Orchestra,Russell Stage,12:00 PM,12:15 PM,15:00,11:00 AM,
-Mariachi Cielito Lindo,Russell Stage,12:55 PM,1:40 PM,45:00,11:55 AM,
-UC Davis Chamber Singers,Russell Stage,1:50 PM,2:05 PM,15:00,12:50 PM,
-Afro Vibes,Russell Stage,2:15 PM,2:30 PM,15:00,1:15 PM,
-Bakuhatsu Taiko Dan,Russell Stage,2:40 PM,3:00 PM,20:00,1:40 PM,
-San Kazakgascar,Sciences Lab Building Patio,12:00 PM,12:30 PM,30:00,11:00 AM,
-Stand Up Comedy Club,Sciences Lab Building Patio,12:40 PM,12:55 PM,15:00,11:40 AM,
-Rocky Horror Club,Sciences Lab Building Patio,1:05 PM,1:20 PM,15:00,12:05 PM,
-Davis Swing Dancers,Sciences Lab Building Patio,1:30 PM,1:45 PM,15:00,12:30 PM,
-Davis Local Vocals,Sciences Lab Building Patio,1:55 PM,2:25 PM,30:00,12:55 PM,
-The Cleftomaniacs,Sciences Lab Building Patio,2:35 PM,2:50 PM,15:00,1:35 PM,
-Video Game Orchestra,Wellman Hall Stage,12:00 PM,12:30 PM,30:00,11:00 AM,
-Guitar Club,Wellman Hall Stage,2:25 PM,2:55 PM,30:00,1:25 PM,
-The New Harmony Jazz,Wellman Hall Stage,3:05 PM,3:35 PM,30:00,2:05 PM,
-Bossa Saurus,Wellman Hall Stage,3:45 PM,4:00 PM,15:00,2:45 PM,
+Org,Contact,Phone,Email,Setup,Start,End,Cleanup,Location,Outdoor
+Craft Center exhibits,Sanne Stark Fettinger,15307520792,sfettinger@ucdavis.edu,11:00 AM,12:00 PM,3:30 PM,4:30 PM,"Craft Center, south silo",No
+"Moogie's VALORANT Throwdown 2026 - LAN Finals",Matthew Lim,16264186133,matlim@ucdavis.edu,10:00 AM,11:00 AM,6:00 PM,7:00 PM,"Teaching and Learning Complex, first floor, matches played in TLC 1010",No
+School of Veterinary Medicine Information Booth,Rob Warren,15304006838,rjwarren@ucdavis.edu,9:00 AM,10:00 AM,3:00 PM,4:00 PM,Hutchison Field,Yes
+Shaking and moving the earth with civil engineers,Mark Bancroft,15302202156,mbancroft@ucdavis.edu,9:00 AM,10:00 AM,2:00 PM,3:00 PM,Ghausi Hall lobby,No
+Engineering Alumni Lounge ,Darian Brown ,15303043878,ddbrown@ucdavis.edu,9:00 AM,10:00 AM,1:00 PM,2:00 PM,Bainer Hall ESDC Baum Shelter,Yes
+Shelley Niro,Becky Beaman,15307526567,rlbeaman@ucdavis.edu,10:00 AM,11:00 AM,5:00 PM,6:00 PM,Gorman Museum of Native American Art (Nelson Hall),No
+Doxie Derby,Jagveer Kaur Gill,12098792134,jkggill@ucdavis.edu,11:00 AM,12:00 PM,2:00 PM,3:00 PM,Entire UCenter,No
+Caring for the Invertebrates in our Wetlands using Traditional Ecological Knowledge,Geoffrey Attardo,12034642027,gmattardo@ucdavis.edu,8:30 AM,9:30 AM,4:30 PM,5:30 PM,Briggs Hall,No
+"Journey from the Amazon - Building a Cacao Collection in Davis",Vanessa Sanchez,13052819185,vanessa.sanchez@effem.com,7:00 AM,8:00 AM,3:00 PM,4:00 PM,Plant and Environmental Sciences Building Courtyard,Yes
+Embodiment ,Emily Tonnos,12482144540,entonnos@ucdavis.edu,9:00 AM,10:00 AM,4:00 PM,5:00 PM,"Cruess Hall 1st floor classrooms, or 2nd floor classrooms",No
+Plant Disease Clinic ,Myles Collinson,18589221992,mcollinson@ucdavis.edu,9:00 AM,10:00 AM,2:00 PM,3:00 PM,Lobby of Hutchison Hall,No
+Environmental Toxicology,Erica Cefalo,15307549796,emcefalo@ucdavis.edu,9:00 AM,10:00 AM,2:00 PM,3:00 PM,Lawn outside Meyer Hall facing the Meyer Hall bikeway,Yes
+Water Above and Below Ground,Keitasha Royal,16199169067,kroyal@ucdavis.edu,10:00 AM,11:00 AM,2:30 PM,3:30 PM,Sidewalk on the east side of Veihmeyer Hall,Yes
+Explore Viticulture & Enology,Caroline Bamforth,15309020638,cjbamforth@ucdavis.edu,10:00 AM,11:00 AM,3:00 PM,4:00 PM,"Good life Garden, Robert Mondavi Institute",Yes
+"Biotechnology Experiment - DNA Extraction from Strawberries!",Jacki Balderama,15307521048,jbalderama@ucdavis.edu,9:00 AM,10:00 AM,2:00 PM,3:00 PM,148 Briggs Hall,No
+"Explore, Build, Discover - Hands-On Math & Science!",Susann Pinter,16182031053,spinter@ucdavis.edu,8:30 AM,9:30 AM,3:30 AM,4:30 AM,Earth and Physical Sciences Building North Entrance picnic area,Yes
+"Cultivating the Future - Engineering for a Sustainable World",Yi Wang,12178199098,vipwang@ucdavis.edu,9:00 AM,10:00 AM,3:00 PM,4:00 PM,1330 Bainer Hall,Yes
+AIChE Liquid Nitrogen Sorbet,Nolan Farrar,19164300855,ntfarrar@ucdavis.edu,9:00 AM,10:00 AM,2:00 PM,3:00 PM,Lawn outside Bainer,Yes
+"Village Homes - A Radical Plan",Tim McNeil,15307522289,tjmcneil@ucdavis.edu,10:00 AM,11:00 AM,4:00 PM,5:00 PM,124 Cruess Hall,No
+AIChE Slime Time,Nolan Farrar,19164300855,ntfarrar@ucdavis.edu,9:00 AM,10:00 AM,2:00 PM,3:00 PM,Lawn outside Bainer Hall,Yes
+Amazing Atmosphere Show,Paul Green,18058013238,pfgreen@ucdavis.edu,11:00 PM,12:00 AM,4:00 AM,5:00 AM,Hoagland Hall 113,No
+California Climate Forum,Paul Green,18058013238,pfgreen@ucdavis.edu,12:00 AM,1:00 AM,1:45 AM,2:45 AM,Hoagland Hall 113,No
+Meteorologist Cosplay Greenscreen,Paul Green,18058013238,pfgreen@ucdavis.edu,9:00 AM,10:00 AM,4:00 PM,5:00 PM,Hoagland Hall 124,No
+Children's Interactive Atmospheric Science Exhibit,Paul Green,18058013238,pfgreen@ucdavis.edu,9:00 AM,10:00 AM,4:00 PM,5:00 PM,Hoagland Hall North Patio,Yes
+Weather Balloon Launch,Paul Green,18058013238,pfgreen@ucdavis.edu,10:00 AM,11:00 AM,3:15 PM,4:15 PM,Open area surrounding the North side of Hoagland Hall,Yes
+Cal Aggie Alumni Association Family Fun Zone,Charlotte Noto,15307521666,csyoung@ucdavis.edu,9:00 AM,10:00 AM,2:00 PM,3:00 PM,Vanderhoef Quad,Yes
+"Your Mission - Become a Biomedical Hero!",Tsz Yuet Chen,14087993727,tszchen@ucdavis.edu,9:00 AM,10:00 AM,12:00 PM,1:00 PM,1127 and 1131 Kemper,No
+Cal Aggie Alumni Association VIP Member Lounge,Divine Otico,16267355143,dcotico@ucdavis.edu,10:00 AM,11:00 AM,2:00 PM,3:00 PM,"Walter A. Buehler Alumni Center, AGR Hall",No
+Laser Maze,Randy Carney,15307618608,rcarney@ucdavis.edu,9:00 AM,10:00 AM,2:00 PM,3:00 PM,Kemper 1003/1007,No
+Adventures in Math and Stats,Dawn Michelle Chandler,14083166245,dchandler@ucdavis.edu,8:00 AM,9:00 AM,1:00 PM,2:00 PM,Mathematical Sciences Building Courtyard,Yes
+Autonomous Line-Following Racecars,Mohabbat Ahmadi,15307522455,mbahmadi@ucdavis.edu,12:00 PM,1:00 PM,2:30 PM,3:30 PM,Kemper Hall 1065,No
+Make Your Own Electrical Circuit!,Mohabbat Ahmadi,15307522455,mbahmadi@ucdavis.edu,9:00 AM,10:00 AM,2:30 PM,3:30 PM,Kemper Hall Lobby ,No
+The Art of Semiconductor Fabrication,Mohabbat Ahmadi,15307522455,mbahmadi@ucdavis.edu,9:00 AM,10:00 AM,2:30 PM,3:30 PM,Kemper Lobby ,No
+Yolo Basin Foundation,Rogelio Aguilar Lopez,19096958016,volunteer@yolobasin.org,12:30 PM,1:30 PM,5:30 PM,6:30 PM,Hutchison Field ,Yes
+Synth Petting Zoo,Sam Nichols,15303120478,ssnichols@ucdavis.edu,9:00 AM,10:00 AM,1:00 PM,2:00 PM,Art Annex room 101,No
+Meet the Microbes! ,Miriam Markum,15302203248,memarkum@ucdavis.edu,10:00 AM,11:00 AM,1:00 PM,2:00 PM,Esau 2079 and 2087,No
+Schrodinger's Cat in the Hat,Falak Vakharia,15104748901,fmvakharia@ucdavis.edu,10:00 AM,11:00 AM,3:30 PM,4:30 PM,Roessler 66,No
+Chemistry Show,Julia Chamberlain,15307541448,jchamberlain@ucdavis.edu,9:00 AM,10:00 AM,3:30 PM,4:30 PM,Rock Hall - This is the only venue that will work for fire/safety reasons,No
+2026 Picnic Day Battle of the Bands,Garrett Rigsby,15307529239,garigsby@ucdavis.edu,1:00 PM,2:00 PM,10:00 PM,11:00 PM,"We have used the lawn area outside of Mrak Hall (north side) for the Battle of the Bands since 2016. It is necessary for safety reasons that there is ample room and ample shade as it can get quite warm during the event. Historically, we have used the grassy area in front of Lake Spafford. It's been almost 10 year, but the location was ideal as it gave natural separation between the performers and audience. This would need to be discussed with the fire department if we were to move it back.",Yes
+Other Creepy Crawlies,Emma Jochim,12253336670,ejochim@ucdavis.edu,8:00 AM,9:00 AM,5:00 AM,6:00 AM,Briggs Hall 158,No
+Glowing Insects,Emma Jochim,12253336670,ejochim@ucdavis.edu,8:00 AM,9:00 AM,5:00 PM,6:00 PM,Briggs Hall 158,No
+Nematology at UC Davis,Emma Jochim,12253336670,ejochim@ucdavis.edu,8:00 AM,9:00 AM,5:00 AM,6:00 AM,Briggs Hall 122,No
+UC Davis CLEAR Center,Ashley Chum,15302199326,achum@ucdavis.edu,9:00 AM,10:00 AM,2:30 PM,3:30 PM,Outdoor Cole A,Yes
+Bug Doctor,Yu-Ping Meng,15302312267,ypmeng@ucdavis.edu,8:00 AM,9:00 AM,5:00 PM,6:00 PM,In front of Briggs hall under cantilever,Yes
+Nutrition at UC Davis,Jenny Smilowitz,13104034483,jensm@ucdavis.edu,9:00 AM,10:00 AM,3:00 PM,4:00 PM,"Meyer Hall (South, West side)",Yes
+"Explore Middle East & South Asia Languages",Mishaal Weatherford,15305748654,mweatherford@ucdavis.edu,11:00 AM,12:00 PM,3:00 PM,4:00 PM,Lawn outside Everson Hall,Yes
+Cool Science of Ice Cream,Jonah Messinger,16107317832,jmessinger@ucdavis.edu,9:00 AM,10:00 AM,2:00 PM,3:00 PM,UC Davis Good Life Garden ,Yes
+UC Davis Fire Department Open House,Cesilio Mercado,17073657302,crmercado@ucdavis.edu,9:30 AM,10:30 AM,5:00 PM,6:00 PM,Fire Station 34 ,No
+Insect Origami,Marshall McMunn,16263193278,msmcmunn@ucdavis.edu,8:00 AM,9:00 AM,5:00 PM,6:00 PM,Briggs Courtyard,No
+Maggot Art,Marshall McMunn,16263193278,msmcmunn@ucdavis.edu,8:00 AM,9:00 AM,5:00 PM,6:00 PM,Briggs Courtyard,Yes
+Pollinator Exhibit,Marshall McMunn,16263193278,msmcmunn@ucdavis.edu,8:00 AM,9:00 AM,5:00 PM,6:00 PM,Briggs Hall 122,No
+Diane Bryant Engineering Student Design Center (ESDC),Jose Mojica,15307541881,jwmojica@ucdavis.edu,9:00 AM,10:00 AM,2:00 PM,3:00 PM,Bainer Hall 1500,No
+Native American Studies at UC Davis,Christine Kelly,19253242218,chmkelly@ucdavis.edu,9:00 AM,10:00 AM,3:00 PM,4:00 PM,Hart Hall,No
+Insect-Themed T-Shirt Sales Table,Briley Mullin,12108729925,bfmullin@ucdavis.edu,8:00 AM,9:00 AM,5:00 PM,6:00 PM,Briggs Hall - Entryway,Yes
+MyoMaze,Peyton Young,16503502624,pryoung@ucdavis.edu,8:00 AM,9:00 AM,4:00 PM,5:00 PM,The front of Bainer Hall,Yes
+Remote-controlled robotic arm,Peyton Young,16503502624,pryoung@ucdavis.edu,8:00 AM,9:00 AM,4:00 PM,5:00 PM,In front of Bainer Hall,Yes
+Fly-tying,Grace Horne,16039034619,gmhorne@ucdavis.edu,8:00 AM,9:00 AM,5:00 PM,6:00 PM,Briggs Hall courtyard,Yes
+Department of Animal Science Advising,Emma Martinez,15307526118,eadmartinez@ucdavis.edu,9:00 AM,10:00 AM,3:00 PM,4:00 PM,Breezeway of Meyer Hall,Yes
+UC Davis Dairy Facility,Maria Patino,15302196564,mfpatino@ucdavis.edu,9:00 AM,10:00 AM,3:00 PM,4:00 PM,Animal Science- Cole Facility,No
+Doctor Death,Briley Mullin,12108729925,bfmullin@ucdavis.edu,8:00 AM,9:00 AM,5:00 PM,6:00 PM,158 Briggs Hall,No
+Manetti Shrem Museum,Linda Alvarez,16027337427,lxalvarez@ucdavis.edu,9:00 AM,10:00 AM,5:00 PM,6:00 PM,Manetti Shrem Museum,No
+UC Davis Integrated Pest Management (IPM),Grace Horne,16039034619,gmhorne@ucdavis.edu,8:00 AM,9:00 AM,5:00 PM,6:00 PM,Briggs courtyard,Yes
+Entomology at UC Davis,Grace Horne,16039034619,gmhorne@ucdavis.edu,8:00 AM,9:00 AM,5:00 PM,6:00 PM,Briggs Hall 122,No
+Mosquito control,Grace Horne,16039034619,gmhorne@ucdavis.edu,8:00 AM,9:00 AM,5:00 PM,6:00 PM,In front of Briggs Hall,Yes
+Music Student Performance,Philip E. Daley,15304001858,pedaley@ucdavis.edu,10:00 AM,11:00 AM,12:00 PM,1:00 PM,Ann E. Pitzer Center,No
+"Picnic Day Fashion Show - Laced in Reverie",Vivian Le,14086776767,vngle@ucdavis.edu,10:00 AM,11:00 AM,2:00 PM,3:00 PM,Cruess Hall Courtyard and lawn beside Maker's Space,Yes
+"Destination Shields - Color - Collect - Connect!",Jessica Nusbaum,15307524145,jlnusbaum@ucdavis.edu,10:00 AM,11:00 AM,2:00 PM,3:00 PM,Shields Library,No
+Exploring EVs with EcoCAR,Isaiah Wrice,17073058369,tiwrice@ucdavis.edu,12:00 PM,1:00 PM,4:00 PM,5:00 PM,Bainer South Lawn,Yes
+"Aggie Polo Club at UC Davis - Arena Polo Demo Game",Aurora Runyan Ji,15307606061,aggiepoloclubucd@gmail.com,12:30 PM,1:30 PM,2:30 AM,3:30 AM,Arena at Horse Barn at UC Davis ,Yes
+Physics for Fun! Short Lectures on Hot Topics,Professor Robin Erbacher,15302204678,erbacher@physics.ucdavis.edu,9:30 AM,10:30 AM,4:30 PM,5:30 PM,Roessler 55 lecture hall (our main physics dept lecture hall),No
+"Endangered Species Detective",Andrea Schreier,15307520664,amdrauch@ucdavis.edu,9:00 AM,10:00 AM,3:00 PM,4:00 PM,Cole A,No
+"Data Science Experience @ DataLab",Pamela Reynolds,19256838950,plreynolds@ucdavis.edu,10:00 AM,11:00 AM,2:00 PM,3:00 PM,Shields Library lobby,No
+Taste for Science,Julien Delarue,15307526389,jdelarue@ucdavis.edu,9:00 AM,10:00 AM,2:30 PM,3:30 PM,Robert Mondavi Institute Sensory Building Outdoor Area,Yes
+Cal Aggie Alumni Association Family Fun Zone,Charlotte Noto,15307521666,csyoung@ucdavis.edu,9:00 AM,10:00 AM,2:00 PM,3:00 PM,Vanderhoef Quad,Yes
+Undergraduate Admissions Presentations,Samantha Solis,15307520567,sisolis@ucdavis.edu,8:00 AM,9:00 AM,12:30 PM,1:30 PM,Welcome Center Presentation Hall,No
+"Soil Science Central - Life Beneath our Feet",Alyssa Flores,15599605333,alyflores@ucdavis.edu,9:00 AM,10:00 AM,1:00 PM,2:00 PM,PES Quad next to Sierra to Sea Walkway,Yes
+"Coffee - See, Smell, Touch, & Taste",William Ristenpart,15309025619,wdristenpart@ucdavis.edu,7:00 AM,8:00 AM,2:00 PM,3:00 PM,UC Davis Coffee Center,Yes
+Cockroach Racing,Grace Horne,16039034619,gmhorne@ucdavis.edu,10:00 AM,11:00 AM,3:00 PM,4:00 PM,In front of Briggs hall,No
+Meat Me at Davis,Crystal Yang,15307526590,xcryang@ucdavis.edu,9:00 AM,10:00 AM,3:00 PM,4:00 PM,Cole Facility A,No
+Premier Speedcubing League Presented by Davis Cube Club,Hamza Hafeez,19254486883,hyhafeez@ucdavis.edu,11:00 AM,12:00 PM,6:30 PM,7:30 PM,California Hall,No
+What is Home Without Food,Sara Molina,14152351172,outreach@thepantry.ucdavis.edu,10:00 AM,11:00 AM,4:00 PM,5:00 PM,Walker Hall 1310,No
+"Catch Up, Get Ahead, Graduate Early — Summer Sessions for Current, Visiting & New Students!",Danniele Biala,15307527067,dmbiala@ucdavis.edu,8:00 AM,9:00 AM,2:00 PM,3:00 PM,Lawn outside of Wellman Hall ,Yes
+Plant Breeding Center Strawberry Plant Giveaway,Amanda Saichaie,14136587541,asaichaie@ucdavis.edu,8:00 AM,9:00 AM,11:00 AM,12:00 PM,Plant and Environmental Sciences Building lawn,Yes
+Popcorn Giveaway,Tom Nance,17147954630,tdnance@ucdavis.edu,9:00 AM,10:00 AM,1:00 PM,2:00 PM,Plant & Environmental Sciences Main Lobby,No
+Tomato Plant Giveaway,Davith Hin,12096842721,dhin@ucdavis.edu,8:00 AM,9:00 AM,1:00 PM,2:00 PM,Lawn in front of Plant and Environmental Sciences,Yes
+Tomato Genetics Resource Center,Matt Valle,19162611222,mattjvalle@gmail.com,8:00 AM,9:00 AM,12:00 PM,1:00 PM,PES courtyard,Yes
+That's One Tough Nut! Pistachio Resilience in the face of Climate Change,Hannah McCurry,16179017739,hmccurry@ucdavis.edu,8:00 AM,9:00 AM,12:00 PM,1:00 PM,Plant and Environmental Sciences Building Courtyard,Yes
+Materials Magic Show,Shirin Sidharta,13109203080,sasidharta@ucdavis.edu,10:00 AM,11:00 AM,1:30 PM,2:30 PM,Khaira Lecture Hall,No
+UC Davis Olive Center Olive Oil Tasting,Selina Wang,5302191267,scwang@ucdavis.edu,9:00 AM,10:00 AM,2:00 PM,3:00 PM,Outside RMI Sensory Building,Yes
+Steel Bridge Team at UC Davis,Kieler Troy,8318698550,krtroy@ucdavis.edu,9:00 AM,10:00 AM,1:00 PM,2:00 PM,Directly in front of Ghausi Hall,Yes
+Meet the Fruit and Nut Research and Information Center,Sam Romano,6102075706,sfromano@ucdavis.edu,8:00 AM,9:00 AM,3:00 PM,4:00 PM,Plant and Environmental Sciences Courtyard,
+"Weed Doctor & UC EcoRestore",Sam Romano,6102075706,sfromano@ucdavis.edu,8:00 AM,9:00 AM,2:00 PM,3:00 PM,Plant and Environmental Sciences Courtyard,Yes
+College of Letters and Science Info Booth,Crystal Masuda,5305740020,clmasuda@ucdavis.edu,9:00 AM,10:00 AM,2:00 PM,3:00 PM,East lawn of Rock Hall,Yes

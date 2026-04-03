@@ -41,7 +41,7 @@
 
 
   show table.cell.where(x: 0): strong
-  show table.cell.where(x: 1): strong
+  // show table.cell.where(x: 1): strong
   
   place(
     top + center, 

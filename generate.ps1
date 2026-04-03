@@ -9,18 +9,25 @@ if (-not (Test-Path -Path $exportPath)) {
 }
 
 foreach ($row in $data) {
-    Write-Host "Generating PDF for: $($row.Name)"
+    # 1. Sanitize the name for the FILENAME only (remove colons/semicolons)
+    # Windows will error out if you try to save a file with a ':' or ';'
+    $safeName = $row.org -replace '[:;]', '-'
     
-    # Use 'typst compile' with the --input flags
-    # In PowerShell, we wrap variables in $() inside strings
+    Write-Host "Generating PDF for: $($row.org)" -ForegroundColor Yellow
+    
+    # 2. Use triple-quotes for the inputs to ensure semicolons are passed literally
+    # to the Typst compiler without PowerShell intercepting them.
     typst compile `
-        --input name="$($row.Name)" `
-        --input location="$($row.Location)" `
-        --input start="$($row.Start)" `
-        --input end="$($row.End)" `
-        --input duration="$($row.Duration)" `
-        --input call="$($row.Call)" `
-        --input call="&($row.Check)" `
+        --input org="""$($row.org)""" `
+        --input contact="""$($row.contact)""" `
+        --input location="""$($row.location)""" `
+        --input outdoor="""$($row.outdoor)""" `
+        --input setup="""$($row.setup)""" `
+        --input start="""$($row.start)""" `
+        --input end="""$($row.end)""" `
+        --input clean-up="""$($row.cleanup)""" `
         main.typ `
-        "$exportPath\$($row.Name) - Picnic Day 112 Acceptance.pdf"
+        "$exportPath\$safeName - Picnic Day 112 Acceptance.pdf"
 }
+
+Write-Host "Batch processing complete!" -ForegroundColor Green
