@@ -36,7 +36,7 @@ Here is the specific information regarding your exhibit:
 Please review the following important information as well.
 
 === Rain 
-A Rain Plan [link missing] will be instituted in the event that rain does not permit any outdoor events. You will be notified the day before if it needs to be carried out.
+A rain plan will be instituted in the event that rain does not permit any outdoor events. You will be notified the day before if it needs to be carried out.
 
 === Parking
 Parking is free but very limited, competitive, and not guaranteed. We strongly recommended that you arrive early, to increase your odds of securing a parking spot. Parking violations will result in the vehicle being towed at the owner’s expense.
